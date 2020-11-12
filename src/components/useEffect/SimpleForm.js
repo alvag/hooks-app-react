@@ -27,7 +27,7 @@ export const SimpleForm = () => {
     }
 
     return (
-        <>
+        <Form>
             <h1>useEffect</h1>
 
             <div className="form-group">
