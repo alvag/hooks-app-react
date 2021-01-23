@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { FormWithCustomHook } from './components/useEffect/FormWithCustomHook';
+import { Memorize } from './components/memos/Memorize';
 
 ReactDOM.render(
-    <FormWithCustomHook />,
-    document.getElementById('root')
+    <Memorize/>,
+    document.getElementById( 'root' )
 );

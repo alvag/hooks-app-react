@@ -1,26 +1,26 @@
 import React from 'react';
 import { useEffect } from 'react';
 import { useForm } from '../../hooks/useForm';
-import './effects.css'
+import './effects.css';
 
 export const FormWithCustomHook = () => {
 
-    const [formValues, handleInputChange] = useForm({
+    const [formValues, handleInputChange] = useForm( {
         name: '',
         email: '',
         password: ''
-    });
+    } );
 
     const { name, email, password } = formValues;
 
-    useEffect(() => {
-        console.log('email cambió');
-    }, [email]);
+    useEffect( () => {
+        console.log( 'email cambió' );
+    }, [email] );
 
-    const handleSubmit = (e) => {
+    const handleSubmit = ( e ) => {
         e.preventDefault();
-        console.log(formValues);
-    }
+        console.log( formValues );
+    };
 
 
     return (
@@ -29,21 +29,21 @@ export const FormWithCustomHook = () => {
 
             <div className="form-group">
                 <input type="text" name="name" className="form-control" placeholder="Name" autoComplete="off"
-                    value={name} onChange={handleInputChange} />
+                       value={name} onChange={handleInputChange}/>
             </div>
 
             <div className="form-group">
                 <input type="text" name="email" className="form-control" placeholder="Email" autoComplete="off"
-                    value={email} onChange={handleInputChange} />
+                       value={email} onChange={handleInputChange}/>
             </div>
 
             <div className="form-group">
                 <input type="password" name="password" className="form-control" placeholder="Password"
-                    value={password} onChange={handleInputChange} />
+                       value={password} onChange={handleInputChange}/>
             </div>
 
             <button className="btn btn-primary">Guardar</button>
 
         </form>
-    )
-}
+    );
+};
