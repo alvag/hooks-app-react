@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Memorize } from './components/memos/Memorize';
+import { CallbackHook } from './components/memos/CallbackHook';
 
 ReactDOM.render(
-    <Memorize/>,
+    <CallbackHook/>,
     document.getElementById( 'root' )
 );
