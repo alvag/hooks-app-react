@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4066a623-9c9a-4c47-be9a-b8271ffdb2f8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/useForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useForm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +42,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -64,11 +65,16 @@
       <workItem from="1611150807606" duration="1195000" />
       <workItem from="1611172079106" duration="8741000" />
       <workItem from="1611413914785" duration="464000" />
-      <workItem from="1611591451645" duration="6416000" />
+      <workItem from="1611591451645" duration="14010000" />
+      <workItem from="1611670617786" duration="11521000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
