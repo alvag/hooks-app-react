@@ -13,7 +13,11 @@ export const ExampleRef = () => {
 
             {show && <MultipleCustomHooks/>}
 
-            <button className="btn btn-primary mt-5" onClick={() => {setShow( !show );}}>Show/Hide</button>
+            <button className="btn btn-primary mt-5" onClick={() => {
+                setShow( !show );
+            }}>
+                Show/Hide
+            </button>
         </div>
     );
 };
